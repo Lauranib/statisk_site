@@ -1,0 +1,27 @@
+.kategoriliste {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+@media (min-width: 800px) {
+  main {
+    padding-top: 5px;
+    padding-bottom: 3vh;
+  }
+
+  .kategoriliste {
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 2rem;
+  }
+
+  .kategoriliste a:hover {
+    color: var(--primary-cl);
+  }
+}

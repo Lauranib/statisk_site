@@ -1,0 +1,60 @@
+main {
+  padding: 20px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+h2 {
+  text-align: center;
+  font-size: 10vw;
+  margin-bottom: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+.featured {
+  margin-bottom: 20px;
+}
+
+.sport-card {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.sport-card img {
+  width: 200px;
+  height: auto;
+}
+
+.latest-news ul {
+  list-style-type: none;
+}
+
+.index_footer {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  padding: 0.5em 0.67em;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: black;
+  text-decoration: none;
+  border: 0.1em solid black;
+  border-radius: 25px;
+}
+
+.button:hover {
+  padding: 0.5em 0.67em;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: var(--primary-cl);
+  text-decoration: none;
+  border: 0.1em solid var(--primary-cl);
+  border-radius: 25px;
+}
